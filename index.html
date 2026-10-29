@@ -1,37 +1,39 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <!-- <select id="transporte">
-    <option value="">Selecciona</option>
-    <option value="bus">bus</option>
-    <option value="metro">Metro</option>
-    <option value="bici">Bicicleta</option>
-</select> -->
-    <!--     <h1>Entrega De Pedido</h1>
-    <label for="entrega">Ingrese un dato: </label>
-      <select id="entrega">
-        <option value="">Selecciona una opción</option>
-        <option value="domicilio">Domicilio</option>
-        <option value="tienda">Tienda</option>
-      </select>
-    <p id="salida"></p> -->
-<!--     <h1>Prioridad de atención!</h1>
-    <label for="prioridad">Ingrese un dato: </label>
-    <select id="prioridad">
-      <option value="">Selecciona Una Opción</option>
-      <option value="alta">ALTA</option>
-      <option value="media">MEDIA</option>
-      <option value="baja">BAJA</option>
-    </select>
-    <p id="salida"></p> -->
-
-
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación Personal</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <fieldset>
+    <header>PRESENTACIÓN PERSONAL.</header>
+        <div>
+            <h1>Daniel López</h1>
+            <p id="descripcion">Mi nombre es Daniel López, tengo 19 años, en estos momentos vivo con mi papá, soy una persona muy alegre, muy amable. <br>Me gusta compartir tiempo con mi familia, mis amigos, me gusta la programación y me gusta jugar futbol!</p>
+        </div>
+        <div>
+            <label for="numeroFavorito">Adivina mi número favorito!</label>
+            <input type="number" id="numeroFavorito" placeholder="Esta entre 1 - 100" min="1">
+            <p id="salida"></p>
+        </div>
+        <div>
+            <label for="opcion">Mis Pasiones: </label>
+                <select id="opcion">
+                    <option value="">Selecciona Una Opción</option>
+                    <option value="futbol">Futbol</option>
+                    <option value="videoJuegos">Video Juegos</option>
+                    <option value="musica">Escuchar Música</option>
+                </select>
+            <p id="salida2"></p>
+        </div>
+        <div>
+        <img src="https://tse2.mm.bing.net/th/id/OIP.s1uPBf_RBRHCyTHubJugeQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+        <br><button id="boton">Click!</button>
+        </div>
+    </fieldset>
+    <footer> Daniel López <br> Medellín - Colombia <br> Análisis Y Desarrollo De Software</footer>
     <script src="js/app.js"></script>
-  </body>
+</body>
 </html>
